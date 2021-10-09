@@ -1,0 +1,229 @@
+
+header{
+    background-color:	mediumaquamarine;
+color: white;
+padding: 0;
+margin: 0;
+}
+::selection{
+    background-color: grey;
+    color: white;
+}
+
+
+.dispo{
+    display:flex;
+}
+
+.logo{
+    display:inline-flex;
+}
+
+.tadImage{
+    width:5%;
+   border-radius: 70%;
+transition: all 2s;
+  
+}
+.tadImage:hover{
+transform: rotate(360deg);
+}
+
+.navcontent{
+    position: relative;
+  color:white;
+  margin-left:50px;
+  margin-top:15px;
+
+    
+  
+}
+
+.navcontent:hover{
+   
+}
+.drop{
+  
+   display: none;;
+      position: absolute;
+
+  
+  
+    
+    text-align: center;
+    margin-top: 5%;
+    
+}
+.drop:hover{
+    display:block;
+    width:120px;
+ 
+   
+   
+}
+.navcontent:hover .drop{
+    display: block;
+    
+    width:120px;
+  
+}
+
+a{
+    color:grey;
+    display: block;
+   
+    text-decoration: none;
+}
+a:hover{
+    color:grey;
+}
+
+.endbar{
+    background-color: grey;
+    color: white;
+
+
+margin-top: 100%;
+
+
+}
+
+
+
+div.dispo{
+   
+    
+    display: inline-flex;
+    text-align: left;
+}
+div.nodispo{
+    
+    text-align: left;
+    display: inline-flex;
+}
+.navbar{
+    
+    display:inline-flex;
+    margin-left:15%;
+    margin-top:2%;
+    
+    
+}
+.light{
+  
+  margin-left:90%;
+  margin-top:3%;
+ position:fixed;
+ 
+  width:120px;
+   
+}
+.light::before{
+    color:black;
+  
+   content:'Dark Mode \2733';
+   transition:all 3s;
+  
+   
+   }
+.lightt{
+   
+      
+        
+        transition:all 1s;
+       transform:rotate(360deg);
+}
+.lightt::before{
+    
+    
+    content:'Light Mode \2733';
+   color:white;
+  
+    
+}
+body{
+    padding:0;
+    margin:0;
+}
+boddy2{
+    background-color:black;
+}
+.nothing{
+    display:inline-flex;
+}
+h10
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color:white;
+}
+h11
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color:white;
+}
+
+h10::after{
+    content:'\25BC';
+
+}
+h10:hover::after{
+    content:'\25B2';
+}
+.undernav{
+   
+    margin-top: 10%;
+    display:inline-flex;
+    margin-left: 10%;
+}
+
+.button3{
+    background-color:		mediumaquamarine;
+    height:50px;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px 20px 0px 20px ;
+    border-style:inset;
+    }
+    .button3:hover{
+        background-color:mediumaquamarine;
+    }
+    
+    .button4{
+    background-color: #123;
+    height: 50px;
+    width: 250px;
+    top:100;
+    padding: 0;
+    margin: 0;
+   border-radius: 15px 15px 0px 15px ;
+   border-style:inset;
+    }
+    .img2{
+    
+        width:500px;
+        
+        transition: all 2s;
+        
+        }
+        .img2:hover{
+            transform: scale(-1,1);
+        }
+        .par1{
+            color:grey;
+            width:300px;
+        }
+        .parr1{
+            width:300px;
+            background-color: aqua;
+        }
+       .both{
+           display: inline-flex;
+       }
+        h4{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight:lighter;
+            font-size: xx-large;
+            color:black;
+        }
