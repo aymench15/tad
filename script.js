@@ -1,27 +1,68 @@
-/*var light=document.getElementById("light");
-var bgcolor=document.getElementById("bgcolor");
-*/
 
 
 
-/*function lightfunc(event){
+ var liste=[
+  {
+      Content:"profissionalisme"
+  },
+  {
+   Content:"confident surces"
+  },
+  {
+   Content:"formations top"
+  }
+  
+  ]
 
-alert(event.target.nodeName);
-}*/
+var time=setInterval(load,2000);
+/*
+var btttn=document.getElementById("buttonn");
+var todol=document.getElementById("auto");
+var div2=document.getElementById("div2");
+todol.appendChild(div2);
+var texte=document.createElement("h");
+   document.body.appendChild(texte);
+   texte.setAttribute("style","padding:0; margin:0;")
+   
+    div2.appendChild(texte);
+    var valcomment=document.createTextNode(liste[i].Content);
+texte.appendChild(valcomment);
 
-var imagee=document.getElementsByClassName("imagee");
-var mode=document.getElementsByClassName("boddy");
+    */
+
+    var i=0;
+function load(){
+  if(i<liste.length){
+    contente.textContent=liste[i].Content;
+   
+   
+
+i++;
+}
+else{
+  
+  i=0;
+}
+
+}
+
+
+
+
+
+
 
 function lightfunc(event){ 
   if(event.target.nodeName=="H3")
   {
+    var novl=document.createElement("li");
    event.target.classList.toggle("lightt");
-    
-     
       
   //event.target.classList.toggle("Nimage");
+  bodyy.classList.add("style2");
    
-}}
+}
 
-imagee.addEventListener('click', lightfunc, false);
+}
 
+//boddy.addEventListener('click', lightfunc, false);
