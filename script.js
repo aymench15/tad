@@ -3,13 +3,13 @@
 
  var liste=[
   {
-      Content:"profissionalisme"
+      Content:"la profissionalisme"
   },
   {
-   Content:"confident surces"
+   Content:"la confidence des sources"
   },
   {
-   Content:"formations top"
+   Content:"des top formations"
   }
   
   ]
@@ -42,6 +42,7 @@ i++;
 else{
   
   i=0;
+  contente.textContent=liste[i].Content;
 }
 
 }
@@ -66,3 +67,4 @@ function lightfunc(event){
 }
 
 //boddy.addEventListener('click', lightfunc, false);
+
