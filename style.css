@@ -4,20 +4,16 @@ header{
 color: white;
 padding: 0;
 margin: 0;
-position:fixed;
+
 }
 ::selection{
     background-color: grey;
     color: white;
 }
 
-
-.dispo{
-    display:flex;
-}
-
 .logo{
-    display:inline-flex;
+     display: inline-flex;
+   
 }
 
 .tadImage{
@@ -61,8 +57,7 @@ transform: rotate(360deg);
 }
 .navcontent:hover .drop{
     display: block;
-    
-    width:120px;
+   
   
 }
 
@@ -171,7 +166,7 @@ h10:hover::after{
 }
 
 .undernavright{
-    background-image: url("dddd.jpg");
+    background-image: url("right.jpg");
 
     width:50% ;
 
@@ -198,7 +193,8 @@ h10:hover::after{
    
 display: inline-flex;
 margin-top: 10%;
-width: 100%;
+width: 1440px;
+height:350px;
 }
 
 
@@ -235,10 +231,12 @@ width: 100%;
         width:50%;
         
         transition: all 2s;
+      
+
         
         }
         .img2:hover{
-            
+           
             transform: scale(-1,1);
         }
         .par1{
@@ -259,58 +257,44 @@ width: 100%;
             color:black;
         }
 
-        .endbar{
-            background-color: grey;
-            color: white;
-      margin-top: 50%;
         
+       .father{
+        position: relative;
+        margin-top: 3%;
+        transition: all 3s;
        
         
-        
-        }
-       footer{
-           padding: 0;
-           margin: 0;
-
-           
-       }
-       .father{
-           position: relative;
-           margin-top: 3%;
-           transition: all 3s;
-          
-           
-           height: 150px;
-           width: 150px;
-           margin-left: 40%;
-           text-align: center;
-           transform-style:preserve-3d ;
-           
-       }
-       .father:hover{
-           transform: rotatey(180deg) ;
-       }
-       .father >div{
-        position: absolute;
-        
+        height: 150px;
+        width: 150px;
+        margin-left: 40%;
         text-align: center;
+        transform-style:preserve-3d ;
         
-           width: 100%;
-           height: 100%;
-           backface-visibility: hidden;
-               }
-       .font{
-           background-color:aqua ;
-           color:blue;
-           z-index: 2;
-       }
-       .back{
-           background-color:lightgray;
-           z-index:1;
-           color:black;
-           transform: rotatey(180deg) ;
-          
+    }
+    .father:hover{
+        transform: rotatey(180deg) ;
+    }
+    .father >div{
+     position: absolute;
+     
+     text-align: center;
+     
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
             }
+    .font{
+        background-color:aqua ;
+        color:blue;
+        z-index: 2;
+    }
+    .back{
+        background-color:lightgray;
+        z-index:1;
+        color:black;
+        transform: rotatey(180deg) ;
+       
+         }
             body{
                 perspective: 1000px;
             }
@@ -320,6 +304,8 @@ width: 100%;
             }
             #div2{
                 display: inline-flex;
+                font-size: xx-large;
+
             }
             #contente{
               color:mediumaquamarine;
@@ -338,6 +324,24 @@ width: 100%;
           
             #auto{
                 display: inline-block;
-                margin-left:10%;
-margin-top: 6%;
+            
+text-align: center;
             }
+
+            .endbar{
+                
+                color: white;
+          margin-top: 50%;
+            
+           
+            
+            
+            }
+           footer{
+               
+               background-color: grey;
+               padding: 0;
+               margin: 0;
+    
+               
+           }
